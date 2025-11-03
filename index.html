@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Visualisations</title>
+
+  <!-- Your data -->
+  <script src="data.js"></script>
+
+  <!-- Fancybox v6.1 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css"/>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
+
+  <style>
+    /***** FONTS *****/
+    @font-face { font-family: 'Roboto Slab'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/robotoslab/v16/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rj.woff2) format('woff2'); unicode-range: U+0000-FFFF; }
+    @font-face { font-family: 'Rubik'; font-style: normal; font-weight: 300; font-display: swap; src: url(https://fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYiFV0U1.woff2) format('woff2'); unicode-range: U+0000-FFFF; }
+    @font-face { font-family: 'Rubik'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4iFV0U1.woff2) format('woff2'); unicode-range: U+0000-FFFF; }
+
+    body {
+      padding: 20px;
+      font-family: rubik, roboto, arial, sans-serif;
+      text-align: center;
+      color: white;
+      background: #000;
+    }
+
+    a, a:hover, button:hover { color: #FF66A3 !important; text-decoration: none; }
+    #gallery a { border-bottom: 5px solid #000; }
+    #gallery a:hover { border-bottom: 5px solid #FF66A3 !important; }
+    .f-caption a:hover { border-bottom: 3px solid #FF66A3 !important; }
+
+    a, button { outline: none !important; box-shadow: none !important; }
+
+    .gallery-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .gallery-grid a img {
+      height: 150px;
+      object-fit: contain;
+    }
+
+    .filter-buttons { margin-bottom: 30px; }
+    .filter-buttons button { margin-right: 10px; padding: 5px 10px; cursor: pointer; }
+    .filter-buttons button.active { color: #D0006E; }
+
+    .fancybox__carousel { background: black !important; }
+    .f-thumbs {
+    	background: #222;
+    }
+	.f-thumbs img {
+	  object-fit: contain !important;
+	  object-position: center center !important;
+	}
+    div.is-selected.f-thumbs__slide { border: 5px solid #FF66A3 !important; border-radius: 5px; }
+    .f-thumbs__slide.is-selected button::after { box-shadow: none !important }
+
+	.f-thumbs__slide {
+		background: black;
+		padding: 2px;
+		border-radius: 5px;
+	}
+	.fancybox__carousel {
+	  padding-top: 10px;
+	  padding-bottom: 0;
+	  box-sizing: border-box;
+	}
+
+	.is-right {
+	  display: flex !important;
+	  flex-direction: column !important;
+	  justify-content: flex-start !important;
+	}
+
+	#gallery .disabled {
+		border: 5px solid red;
+	}
+
+    @media (min-width: 1024px) {
+      body { padding-left: 100px; padding-right: 100px; }
+    }
+  </style>
+</head>
+<body>
+
+<h1>My Visualisations</h1>
+<p>All images are licensed under the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU GPL 3.0</a>.</p>
+<div class="filter-buttons"></div>
+<div class="gallery-grid" id="gallery"></div>
+
+<script>
+
+  galleryItems = galleryItems.filter(e => e.enabled);
+
+  galleryItems.forEach(item => {
+    item.id = 'img' + item.src.match(/\d{10}/);
+  });
+
+  const includedTags = new Set(['black_and_white','chart','film_and_tv','fractal','illusion','maze']);
+  const allTags = new Set();
+  galleryItems.forEach(item => item.tags.split(' ').forEach(tag => allTags.add(tag)));
+  const sortedTags = Array.from(allTags).filter(tag => includedTags.has(tag)).sort((a,b)=>a.localeCompare(b));
+
+  const filterContainer = document.querySelector('.filter-buttons');
+  const allBtn = document.createElement('button');
+  allBtn.dataset.filter = 'all';
+  allBtn.textContent = 'all';
+  allBtn.classList.add('active');
+  filterContainer.appendChild(allBtn);
+
+  sortedTags.forEach(tag => {
+    const btn = document.createElement('button');
+    btn.dataset.filter = tag;
+    btn.textContent = tag.replaceAll('_',' ');
+    filterContainer.appendChild(btn);
+  });
+
+  const filterButtons = document.querySelectorAll('.filter-buttons button');
+  filterButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const filter = btn.dataset.filter;
+      renderGallery(filter);
+      filterButtons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
+
+  const galleryEl = document.getElementById('gallery');
+
+  function renderGallery(filter='all') {
+    galleryEl.innerHTML = '';
+    galleryItems.forEach(item => {
+      const itemTags = item.tags.split(' ');
+      if (filter==='all' || itemTags.includes(filter)){
+        const img = document.createElement('img');
+        const a = document.createElement('a');
+        a.href = item.src;
+        a.setAttribute('data-fancybox','gallery');
+        a.setAttribute('data-caption', `<strong>${item.title ?? "Untitled"}</strong><br><span style="font-size:75%;opacity:.5">${item.date}</span><br>${item.description}`);
+        a.setAttribute('data-id', item.id);
+        img.src = item.src.replace('images/','thumbs/').replace('.jpg','.png').replace('.gif','.png');
+        img.alt = item.title;
+        img.title = item.title ?? 'Untitled';
+        if (!item.enabled) {
+        	img.classList.add('disabled');
+        }
+        a.appendChild(img);
+        galleryEl.appendChild(a);
+      }
+    });
+  }
+
+  renderGallery(); // first render
+
+  Fancybox.bind("[data-fancybox='gallery']", {
+    Carousel: {
+      Toolbar: {
+        display: {
+          left: ["counter"],
+          middle: [],
+          right: ["toggle1to1","fullscreen","download","thumbs","close"].reverse()
+        }
+      }
+    },
+    Hash: false,
+    zoomEffect: true,
+	on: {
+	    "Carousel.ready": (fancyboxInstance) => {
+		  requestAnimationFrame(() => {
+			  document.querySelector("[data-thumbs-action='toggle']").click();
+		  });
+		  window.location.hash = Fancybox.getSlide().id;
+	    },
+	    "Carousel.change": () => {
+	      window.location.hash = Fancybox.getSlide().id;
+	    },
+	    "Carousel.destroy": (carousel) => {
+	      window.location.hash = '';
+	    }
+  	}
+  });
+
+  Fancybox.bind("[data-fancybox]", {
+    Carousel: {
+      Thumbs: {
+        type: "classic"
+      },
+    },
+});
+
+  window.addEventListener("DOMContentLoaded", () => {
+    const hash = window.location.hash.slice(1);
+    if (!hash)
+    	return;
+    const target = document.querySelector(`[data-fancybox='gallery'][data-id='${hash}']`);
+    if (target)
+    	target.click();
+  });
+</script>
+
+
+</body>
+</html>

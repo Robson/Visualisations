@@ -146,7 +146,7 @@
   galleryItems = galleryItems.filter(e => e.enabled);
   galleryItems.forEach(item => { item.id = 'img' + item.src.match(/\d{10}/); });
 
-  var includedTags = new Set(['black_and_white','chart','film_and_tv','fractal','illusion','maze']);
+  var includedTags = new Set(['grey','chart','media','fractal','illusion','maze']);
   var allTags = new Set();
   galleryItems.forEach(item => item.tags.split(' ').forEach(tag => allTags.add(tag)));
   var sortedTags = Array.from(allTags).filter(tag => includedTags.has(tag)).sort((a,b) => a.localeCompare(b));

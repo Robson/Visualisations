@@ -4,7 +4,7 @@ var galleryItems = [
   "title": "Suspiria",
   "description": "I recently watched the film <a href=\"https://letterboxd.com/film/suspiria/\">Suspiria (1977)</a>, which has this interesting floor pattern. I've recreated that in this image.",
   "date": "2024-09-18",
-  "tags": "csharp suspiria film_and_tv",
+  "tags": "csharp suspiria media",
   "enabled": true,
 },
   {
@@ -12,7 +12,7 @@ var galleryItems = [
   "title": "Daisies",
   "description": "Whilst watching the film <a href=\"https://letterboxd.com/film/daisies/\">Daisies (1966)</a> I saw this poster in the background and had a go at recreating it.<br>The &quot;K&quot; is from freestencilletters.com",
   "date": "2024-08-10",
-  "tags": "inkscape daisies studio_balet_praha kontrasty black_and_white film_and_tv",
+  "tags": "inkscape daisies studio_balet_praha kontrasty grey media",
   "enabled": true,
 },
   {
@@ -20,7 +20,7 @@ var galleryItems = [
   "title": "Bound",
   "description": "I recently watched the film <a href=\"https://letterboxd.com/film/bound/\">Bound (1996)</a>, which has prominent circle art on a drinks cabinet featured throughout the film. I've recreated that in this image.",
   "date": "2024-07-27",
-  "tags": "inkscape bound circles black_and_white film_and_tv",
+  "tags": "inkscape bound circles grey media",
   "enabled": true,
 },
   {
@@ -28,7 +28,7 @@ var galleryItems = [
   "title": "Osterried 71",
   "description": "Whilst watching the film <a href=\"https://letterboxd.com/film/all-of-us-strangers/\">All of Us Strangers (2023)</a> I noticed a picture in the background of the protagonist's flat. I wanted to find that, but no amount of Googling was leading to any answers. I came to the conclusion that it doesn't exist outside of the film, so I recreated it and that's the image above. The picture is always shown in shadow, darkness, and/or far away, so I'm not certain about the colours or the letters.",
   "date": "2024-06-30",
-  "tags": "javascript all_of_us_strangers osterried_71 film_and_tv black_and_white",
+  "tags": "javascript all_of_us_strangers osterried_71 media grey",
   "enabled": true,
 },
   {
@@ -44,7 +44,7 @@ var galleryItems = [
   "title": "Bauhaus Pattern #1",
   "description": "An example output from my <a href=\"https://robson.plus/bauhaus-pattern-creator/\">Bauhaus Pattern Creator</a>.",
   "date": "2024-01-15",
-  "tags": "random bauhaus pattern javascript black_and_white",
+  "tags": "random bauhaus pattern javascript grey",
   "enabled": true,
 },
   {
@@ -60,7 +60,7 @@ var galleryItems = [
   "title": "Spiral Maze",
   "description": "This is heavily biased towards turning right, so that it creates a messy spiral pattern in the middle.",
   "date": "2020-08-05",
-  "tags": "csharp random maze black_and_white",
+  "tags": "csharp random maze grey",
   "enabled": true,
 },
   {
@@ -68,7 +68,7 @@ var galleryItems = [
   "title": "Impossible Geometry - Isometric",
   "description": "",
   "date": "2020-08-01",
-  "tags": "csharp black_and_white impossible_geometry 3d",
+  "tags": "csharp grey impossible_geometry 3d",
   "enabled": true,
 },
   {
@@ -76,7 +76,7 @@ var galleryItems = [
   "title": "Impossible Geometry - Flat",
   "description": "",
   "date": "2020-07-25",
-  "tags": "black_and_white random csharp impossible_geometry 3d",
+  "tags": "grey random csharp impossible_geometry 3d",
   "enabled": true,
 },
   {
@@ -100,7 +100,7 @@ var galleryItems = [
   "title": "Abelian Sandpile: Uniform",
   "description": "<a href=\"https://en.wikipedia.org/wiki/Abelian_sandpile_model\">Abelian sandpile model</a>. The initial state of this is a 304x304 grid, with every space containing a sandpile of 4 grains.",
   "date": "2020-04-13",
-  "tags": "csharp black_and_white abelian_sandpile fractal",
+  "tags": "csharp grey abelian_sandpile fractal",
   "enabled": true,
 },
   {
@@ -108,7 +108,7 @@ var galleryItems = [
   "title": "Wren and Me",
   "description": "I was watching the TV show <em>Moon and Me</em> with my niece, which has a short sequence with an animated version of the moon.<br>I liked their depiction so much that I wrote some JavaScript that randomly creates the same thing. This is a screenshot from that.",
   "date": "2020-04-10",
-  "tags": "random javascript jquery moon film_and_tv",
+  "tags": "random javascript jquery moon media",
   "enabled": true,
 },
   {
@@ -116,7 +116,7 @@ var galleryItems = [
   "title": "Maurer Roses",
   "description": "<a href=\"https://en.wikipedia.org/wiki/Maurer_rose\">Maurer Rose</a>.",
   "date": "2019-10-17",
-  "tags": "black_and_white javascript random maurer maurer_rose",
+  "tags": "grey javascript random maurer maurer_rose",
   "enabled": true,
 },
   {
@@ -172,7 +172,7 @@ var galleryItems = [
   "title": "Recamán Sequence (Zoomed)",
   "description": "A cropped visualisation of the start of the Recamán sequence, which is heavily inspired by <a href=\"https://www.youtube.com/watch?v=FGC5TdIiT9U\">this Numberphile video</a>. The video also contains a full explanation of the sequence.",
   "date": "2018-06-30",
-  "tags": "black_and_white csharp Recamán",
+  "tags": "grey csharp Recamán",
   "enabled": true,
 },
   {
@@ -180,7 +180,7 @@ var galleryItems = [
   "title": "Recamán Sequence",
   "description": "A visualisation of the first 33 steps in the Recamán sequence, which is heavily inspired by <a href=\"https://www.youtube.com/watch?v=FGC5TdIiT9U\">this Numberphile video</a>. The video also contains a full explanation of the sequence.",
   "date": "2018-06-30",
-  "tags": "black_and_white Recamán csharp",
+  "tags": "grey Recamán csharp",
   "enabled": true,
 },
   {
@@ -188,7 +188,7 @@ var galleryItems = [
   "title": "Kolakoski Sequence",
   "description": "A visualisation of the <a href=\"https://en.wikipedia.org/wiki/Kolakoski_sequence\">Kolakoski sequence</a> based on the one found in <a href=\"https://www.youtube.com/watch?v=co5sOgZ3XcM\">this Numberphile video</a>.<br>The left-side is with grey lines to denote the individual segments, whilst the right-side is without the grey lines.",
   "date": "2018-06-30",
-  "tags": "black_and_white csharp kolakoski fractal",
+  "tags": "grey csharp kolakoski fractal",
   "enabled": true,
 },
   {
@@ -196,7 +196,7 @@ var galleryItems = [
   "title": "Collatz Conjecture",
   "description": "This visualisation of the Collatz conjecture is completely based on this Reddit post by bertnor:<br><a href=\"https://www.reddit.com/r/dataisbeautiful/comments/8miru1/a_graph_of_the_collatz_conjecture_how_the_first/\">www.reddit.com/r/dataisbeautiful/comments/8miru1/a_graph_...</a><br>The image shows the paths of the first 10,000 numbers.<br>An explanation of the Collatz conjecture can be found here:<br><a href=\"https://www.youtube.com/watch?v=5mFpVDpKX70\">www.youtube.com/watch?v=5mFpVDpKX70</a>",
   "date": "2018-06-15",
-  "tags": "black_and_white csharp collatz_conjecture",
+  "tags": "grey csharp collatz_conjecture",
   "enabled": false,
 },
   {
@@ -204,7 +204,7 @@ var galleryItems = [
   "title": "Elementary Cellular Automaton",
   "description": "",
   "date": "2017-05-28",
-  "tags": "black_and_white random csharp Cellular_Automaton",
+  "tags": "grey random csharp Cellular_Automaton",
   "enabled": true,
 },
   {
@@ -220,7 +220,7 @@ var galleryItems = [
   "title": "Notable World",
   "description": "This is the location of the subject of every Wikipedia article (if it has a location).",
   "date": "2016-08-30",
-  "tags": "black_and_white wikipedia map",
+  "tags": "grey wikipedia map",
   "enabled": true,
 },
   {
@@ -228,7 +228,7 @@ var galleryItems = [
   "title": "Idioms",
   "description": "",
   "date": "2015-08-22",
-  "tags": "inkscape black_and_white text",
+  "tags": "inkscape grey text",
   "enabled": true,
 },
   {
@@ -236,7 +236,7 @@ var galleryItems = [
   "title": "Awful Wordsearch: Level",
   "description": "",
   "date": "2015-08-11",
-  "tags": "black_and_white text random wordsearch csharp",
+  "tags": "grey text random wordsearch csharp",
   "enabled": true,
 },
   {
@@ -252,7 +252,7 @@ var galleryItems = [
   "title": "Happy Tau Day!",
   "description": "Tau day is exactly twice as awesome as Pi day.",
   "date": "2015-06-28",
-  "tags": "csharp black_and_white random tau",
+  "tags": "csharp grey random tau",
   "enabled": true,
 },
   {
@@ -268,7 +268,7 @@ var galleryItems = [
   "title": "Overlook Hotel Carpet",
   "description": "",
   "date": "2014-11-01",
-  "tags": "Processing processorg pattern the_shining overlook_hotel carpet film_and_tv",
+  "tags": "Processing processorg pattern the_shining overlook_hotel carpet media",
   "enabled": true,
 },
   {
@@ -292,7 +292,7 @@ var galleryItems = [
   "title": "Peggy",
   "description": "Each of Peggy's office outfits from the latest season of Mad Men.",
   "date": "2014-06-10",
-  "tags": "Processing processingorg peggy mad_men film_and_tv",
+  "tags": "Processing processingorg peggy mad_men media",
   "enabled": true,
 },
   {
@@ -300,7 +300,7 @@ var galleryItems = [
   "title": "50 Squares of Grey",
   "description": "A interpretation of Vera Molnar's art &quot;25 Squares&quot;, built as a randomly generating Processing sketch. The pencil effect is achieved by using the <a href=\"http://www.gicentre.net/handy/\">Handy library</a>.<br>p.s. There's only 49 squares. I'm a liar.",
   "date": "2014-06-03",
-  "tags": "Processing processingorg random vera_molnar 25_squares black_and_white",
+  "tags": "Processing processingorg random vera_molnar 25_squares grey",
   "enabled": false,
 },
   {
@@ -348,7 +348,7 @@ var galleryItems = [
   "title": "Pinwheel Fractal",
   "description": "<a href=\"http://en.wikipedia.org/wiki/Pinwheel_tiling\">Pinwheel tiling</a>.",
   "date": "2014-05-16",
-  "tags": "Processing processingorg black_and_white fractal",
+  "tags": "Processing processingorg grey fractal",
   "enabled": true,
 },
   {
@@ -356,7 +356,7 @@ var galleryItems = [
   "title": "Snow",
   "description": "",
   "date": "2014-05-12",
-  "tags": "Processing processingorg random black_and_white snow",
+  "tags": "Processing processingorg random grey snow",
   "enabled": true,
 },
   {
@@ -364,7 +364,7 @@ var galleryItems = [
   "title": "Conception",
   "description": "Conway's game of life inside Conway's game of life.",
   "date": "2014-05-05",
-  "tags": "Processing processingorg black_and_white random game_of_life conway",
+  "tags": "Processing processingorg grey random game_of_life conway",
   "enabled": true,
 },
   {
@@ -372,7 +372,7 @@ var galleryItems = [
   "title": "Monochrome Patterns",
   "description": "",
   "date": "2014-04-12",
-  "tags": "csharp fractal black_and_white",
+  "tags": "csharp fractal grey",
   "enabled": true,
 },
   {
@@ -388,7 +388,7 @@ var galleryItems = [
   "title": "Cogs",
   "description": "",
   "date": "2014-04-06",
-  "tags": "csharp random black_and_white",
+  "tags": "csharp random grey",
   "enabled": true,
 },
   {
@@ -396,7 +396,7 @@ var galleryItems = [
   "title": "A Man of His Words",
   "description": "",
   "date": "2014-04-06",
-  "tags": "Processing processingorg text random michael_jackson black_and_white",
+  "tags": "Processing processingorg text random michael_jackson grey",
   "enabled": true,
 },
   {
@@ -404,7 +404,7 @@ var galleryItems = [
   "title": "Films",
   "description": "Playing with fading, saturation, blurring, corruption, textures, perlin noise, font sizing...",
   "date": "2014-02-18",
-  "tags": "Processing processingorg random text film_and_tv",
+  "tags": "Processing processingorg random text media",
   "enabled": false,
 },
   {
@@ -436,7 +436,7 @@ var galleryItems = [
   "title": "IMDb TV Ratings",
   "description": "More playing around with <a href=\"http://nvd3.org/\">NVD3</a> and <a href=\"http://d3js.org/\">D3JS</a>.<br>Sadly, the IMDb doesn't provide an API, so I had to scrape all of the data using C# to make the preset list. Hopefully that will change in the future.<br>Play with it here:<br><a href=\"http://iceyboard.no-ip.org/imdb_tv_ratings/1/\">iceyboard.no-ip.org/imdb_tv_ratings/1/</a>",
   "date": "2014-01-11",
-  "tags": "d3.js nvd3 chart colour nvd3.js interactive film_and_tv",
+  "tags": "d3.js nvd3 chart colour nvd3.js interactive media",
   "enabled": false,
 },
   {
@@ -444,7 +444,7 @@ var galleryItems = [
   "title": "Zeta Maze",
   "description": "A zeta maze has paths at 45 degree angles, as well as the usual 90 degree angles.",
   "date": "2013-12-22",
-  "tags": "Processing processingorg maze random black_and_white",
+  "tags": "Processing processingorg maze random grey",
   "enabled": true,
 },
   {
@@ -452,7 +452,7 @@ var galleryItems = [
   "title": "Zeta Maze (Alternative)",
   "description": "",
   "date": "2013-12-22",
-  "tags": "Processing processingorg maze random black_and_white",
+  "tags": "Processing processingorg maze random grey",
   "enabled": false,
 },
   {
@@ -476,7 +476,7 @@ var galleryItems = [
   "title": "Poincaré Disc",
   "description": "",
   "date": "2013-11-16",
-  "tags": "black_and_white csharp fractal",
+  "tags": "grey csharp fractal",
   "enabled": true,
 },
   {
@@ -484,7 +484,7 @@ var galleryItems = [
   "title": "Tileable Circuit - Large",
   "description": "",
   "date": "2013-11-03",
-  "tags": "black_and_white random Processing processingorg",
+  "tags": "grey random Processing processingorg",
   "enabled": true,
 },
   {
@@ -492,7 +492,7 @@ var galleryItems = [
   "title": "Tileable Circuit - Small",
   "description": "",
   "date": "2013-11-03",
-  "tags": "black_and_white random proc Processing processingorg",
+  "tags": "grey random proc Processing processingorg",
   "enabled": true,
 },
   {
@@ -500,7 +500,7 @@ var galleryItems = [
   "title": "Optical Illusion",
   "description": "All the diamonds are the same.",
   "date": "2013-10-15",
-  "tags": "illusion black_and_white Processing processingorg",
+  "tags": "illusion grey Processing processingorg",
   "enabled": true,
 },
   {
@@ -524,7 +524,7 @@ var galleryItems = [
   "title": "Minesweeper Heatmap",
   "description": "Imagine this is the Intermediate board on classic Minesweeper (16x16 with 40 mines).<br>On your first click a number of tiles are revealed. I wanted to know the average amount of tiles revealed for each starting tile. I simulated 100,000 games per tile and disregarded any that ended in instant failure.<br>The image shows the tiles that reveal the most on average (white) down to the tiles that reveal the least on average (black). The range is 18.26 tiles to 9.57 tiles.<br>My advice is to click one of the tiles on the center of an edge.",
   "date": "2013-09-06",
-  "tags": "Processing processingorg csharp minesweeper black_and_white",
+  "tags": "Processing processingorg csharp minesweeper grey",
   "enabled": false,
 },
   {
@@ -532,7 +532,7 @@ var galleryItems = [
   "title": "Walter White",
   "description": "I keep noticing film and television characters that have colours in their names, especially since I started watching Breaking Bad.<br>I wanted to know if character names contained colours more frequently than real names. So I scrapped over 10,000 films and television episodes from Rotten Tomatoes and then analysed the names. The chart above is the result.<br>I excluded red from the chart, because almost all of the names containing &quot;Red&quot; weren't referring to the colour. For example, there were lots of people called Fred, Meredith and Mildred.",
   "date": "2013-08-30",
-  "tags": "Processing processingorg csharp colour chart film_and_tv",
+  "tags": "Processing processingorg csharp colour chart media",
   "enabled": true,
 },
   {
@@ -540,7 +540,7 @@ var galleryItems = [
   "title": "V is for Videos",
   "description": "<a href=\"http://farm8.staticflickr.com/7331/9584838270_5773067dc2_o.png\">Original Size</a>.<br>I made this by extracting the frames at 10 second intervals using C#. Then I wrote a Processing sketch to determine the overall colour of each frame and draw it as lines.<br>I did this for 26 films that I thought would be interesting. The most interesting 13 made it into this graphic.",
   "date": "2013-08-24",
-  "tags": "Processing processingorg csharp chart film_and_tv",
+  "tags": "Processing processingorg csharp chart media",
   "enabled": false,
 },
   {
@@ -556,7 +556,7 @@ var galleryItems = [
   "title": "UK Number One Singles",
   "description": "My manager had the recent conjecture that songs stayed at number one for less time nowadays, compared to decades gone by.<br>I decided to find out, so I scrapped all of the data from Wikipedia, going back to the first number one.<br>The width of each segment shows how long each song stayed at number one. For example, the first song stayed at the top of the chart for 9 weeks.<br>The chart clearly shows that he was correct, because singles do change more frequently nowadays.",
   "date": "2013-08-21",
-  "tags": "Processing processingorg csharp black_and_white music chart",
+  "tags": "Processing processingorg csharp grey music chart",
   "enabled": true,
 },
   {
@@ -596,7 +596,7 @@ var galleryItems = [
   "title": "Segments",
   "description": "",
   "date": "2013-07-31",
-  "tags": "Processing processingorg black_and_white fractal",
+  "tags": "Processing processingorg grey fractal",
   "enabled": true,
 },
   {
@@ -604,7 +604,7 @@ var galleryItems = [
   "title": "Prime Spirals",
   "description": "Each circle has 10,000 dots. The prime numbers are shown in white. The other circles are sized according to the number of divisors that they have, with more divisors being bigger circles.<br>The circle on the left is a <a href=\"http://en.wikipedia.org/wiki/Phyllotaxis\">Phyllotaxis</a> Spiral, using packing based on the Golden Ratio.<br>The circle on the right is a <a href=\"http://en.wikipedia.org/wiki/Ulam_spiral\">Ulam Spiral</a>, where the numbers are plotted on an <a href=\"http://en.wikipedia.org/wiki/Archimedean_spiral\">Archimedean Spiral</a>.",
   "date": "2013-07-13",
-  "tags": "Processing processingorg black_and_white prime",
+  "tags": "Processing processingorg grey prime",
   "enabled": true,
 },
   {
@@ -644,7 +644,7 @@ var galleryItems = [
   "title": "Pythagoras Triangle Fractal",
   "description": "",
   "date": "2013-06-16",
-  "tags": "Processing processingorg fractal black_and_white recursion",
+  "tags": "Processing processingorg fractal grey recursion",
   "enabled": true,
 },
   {
@@ -660,7 +660,7 @@ var galleryItems = [
   "title": "Hallways #2",
   "description": "",
   "date": "2013-06-08",
-  "tags": "Processing processingorg black_and_white random maze 3d",
+  "tags": "Processing processingorg grey random maze 3d",
   "enabled": true,
 },
   {
@@ -668,7 +668,7 @@ var galleryItems = [
   "title": "Hallways #1",
   "description": "",
   "date": "2013-06-08",
-  "tags": "Processing processingorg maze 3d black_and_white random",
+  "tags": "Processing processingorg maze 3d grey random",
   "enabled": true,
 },
   {
@@ -676,7 +676,7 @@ var galleryItems = [
   "title": "Sierpiński Pyramid",
   "description": "<a href=\"https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle\">Sierpiński triangle</a>.",
   "date": "2013-06-04",
-  "tags": "Processing processingorg 3d triangle recursion black_and_white fractal",
+  "tags": "Processing processingorg 3d triangle recursion grey fractal",
   "enabled": true,
 },
   {
@@ -684,7 +684,7 @@ var galleryItems = [
   "title": "Word Tree",
   "description": "I wrote a Processing sketch to generate these word trees.<br>The text is every sentence from Dexter  that starts with &quot;even&quot;.",
   "date": "2013-06-01",
-  "tags": "csharp text word_tree black_and_white film_and_tv",
+  "tags": "csharp text word_tree grey media",
   "enabled": true,
 },
   {
@@ -708,7 +708,7 @@ var galleryItems = [
   "title": "D is for Dexter",
   "description": "and Data. Everyone loves data.<br>I wrote this toy to view occurrences of words in TV shows, by analysing the subtitles files.<br>The screenshot shows words from Dexter. I've purposefully chosen generic words to avoid spoilers.",
   "date": "2013-05-26",
-  "tags": "colour application csharp chart film_and_tv",
+  "tags": "colour application csharp chart media",
   "enabled": false,
 },
   {
@@ -724,7 +724,7 @@ var galleryItems = [
   "title": "Angular Maze",
   "description": "",
   "date": "2013-05-19",
-  "tags": "maze black_and_white random Processing processingorg",
+  "tags": "maze grey random Processing processingorg",
   "enabled": true,
 },
   {
@@ -732,7 +732,7 @@ var galleryItems = [
   "title": "Spiral Maze",
   "description": "The maze layout is generated in C# and then it is rendered by Processing.",
   "date": "2013-05-12",
-  "tags": "csharp Processing processingorg maze black_and_white spiral random",
+  "tags": "csharp Processing processingorg maze grey spiral random",
   "enabled": true,
 },
   {
@@ -740,7 +740,7 @@ var galleryItems = [
   "title": "Ulam Spiral mod 82",
   "description": "",
   "date": "2013-04-27",
-  "tags": "Processing processingorg black_and_white ulam_spiral",
+  "tags": "Processing processingorg grey ulam_spiral",
   "enabled": true,
 },
   {
@@ -780,7 +780,7 @@ var galleryItems = [
   "title": "Visualising Merge Sort #1",
   "description": "The first row contains the initial array of colours.<br>Each row after is the result of sorting each subset, until the final row, where everything is sorted.<br><a href=\"http://en.wikipedia.org/wiki/Merge_sort\">Merge Sort</a>.",
   "date": "2012-12-01",
-  "tags": "Processing processingorg mergesort random black_and_white",
+  "tags": "Processing processingorg mergesort random grey",
   "enabled": true,
 },
   {
@@ -796,7 +796,7 @@ var galleryItems = [
   "title": "Hexagons",
   "description": "I liked <a href=\"http://www.flickr.com/photos/davebollinger/6104417094/in/photostream/\">&quot;D20110725B (lo)&quot; by davebollinger</a>, so I made a Processing sketch to randomly generate similar results.",
   "date": "2012-11-14",
-  "tags": "Processing processingorg recursion hexagons random black_and_white fractal",
+  "tags": "Processing processingorg recursion hexagons random grey fractal",
   "enabled": true,
 },
   {
@@ -804,7 +804,7 @@ var galleryItems = [
   "title": "Moon",
   "description": "Wanted to see if I could recreate &quot;Density Crescent 1&quot; by davebollinger:<br><a href=\"http://www.flickr.com/photos/davebollinger/2087264829/in/photostream\">www.flickr.com/photos/davebollinger/2087264829/in/photost...</a><br>I experimented with making the shapes only appear in a crescent and adding perlin noise to make them look like moons, but both effects looked awful.",
   "date": "2012-11-12",
-  "tags": "Processing processingorg moon black_and_white random",
+  "tags": "Processing processingorg moon grey random",
   "enabled": false,
 },
   {
@@ -868,7 +868,7 @@ var galleryItems = [
   "title": "Rorschach Inkblots",
   "description": "A Processing sketch that generates <a href=\"http://en.wikipedia.org/wiki/Rorschach_test\">Rorschach inkblots</a>.",
   "date": "2012-09-30",
-  "tags": "Processing random interactive processingorg black_and_white",
+  "tags": "Processing random interactive processingorg grey",
   "enabled": true,
 },
   {
@@ -900,7 +900,7 @@ var galleryItems = [
   "title": "Rotation",
   "description": "I improved my wordle generator so that it can do rotation and only place characters in specified areas.",
   "date": "2012-09-09",
-  "tags": "Processing processingorg random text black_and_white",
+  "tags": "Processing processingorg random text grey",
   "enabled": true,
 },
   {
@@ -916,7 +916,7 @@ var galleryItems = [
   "title": "Bingo Card Generator",
   "description": "This forward-thinking sketch dynamically takes a digital subset of items and amalgamates them into this user-focussed bingo card. My only mission-critical requirement was to keep it absent of colour.<br>CNN (an outside-the-box and environmentally-conscience company) say that the word &quot;creative&quot; was the most overused buzzword of 2011.",
   "date": "2012-09-04",
-  "tags": "Processing processingorg bingo random text buzzword buzzword_bingo black_and_white",
+  "tags": "Processing processingorg bingo random text buzzword buzzword_bingo grey",
   "enabled": false,
 },
 // {{{1,2,1},,{0,8,1},},,{{1,1,0},,{0,1,0},},}, at step 10529<br>{{{1,2,1},,{1,1,0},},,{{1,1,0},,{0,1,1},},}, at step 46533<br>{{{1,2,1},,{1,2,0},},,{{0,1,0},,{0,1,0},},}, at step 824936<br>{{{1,2,1},,{1,2,1},},,{{1,8,1},,{0,2,0},},}, at step 3837<br>{{{1,2,1},,{1,8,1},},,{{1,2,1},,{0,2,0},},}, at step 43578<br><br><br>{{{1,8,0},,{0,1,1},},,{{0,8,0},,{0,8,1},},}, at step 303406<br>{{{1,8,0},,{1,2,1},},,{{0,2,0},,{0,8,1},},}, at step 659754<br>{{{1,8,0},,{1,2,1},},,{{0,2,1},,{1,8,0},},}, at step 50250<br>{{{1,8,1},,{0,1,0},},,{{1,1,0},,{1,2,0},},}, at step 10221<br>{{{1,8,1},,{0,2,0},},,{{0,8,0},,{0,8,0},},}, at step 22381<br><br><br>{{{1,8,1},,{0,8,0},},,{{1,1,0},,{0,1,0},},}, at step 42914<br>{{{1,8,1},,{0,8,0},},,{{1,2,1},,{1,2,0},},}, at step 25521<br>{{{1,8,1},,{0,8,1},},,{{1,2,1},,{0,8,0},},}, at step 21566<br>{{{1,8,1},,{1,2,0},},,{{0,8,0},,{0,8,0},},}, at step 1507081<br>{{{1,8,1},,{1,2,1},},,{{1,1,0},,{0,1,1},},}, at step 6085<br><br><br>{{{1,8,1},,{1,8,1},},,{{1,2,1},,{0,1,0},},}, at step 7716<br>{{{1,2,1},,{0,4,1},},,{{1,1,0},,{0,8,0},},}, at step 13712<br>{{{1,2,1},,{0,8,1},},,{{1,4,0},,{1,8,0},},}, at step 74602<br>{{{1,4,1},,{1,2,1},},,{{1,8,0},,{1,1,1},},}, at step 6276<br>{{{1,4,1},,{1,8,1},},,{{1,4,0},,{0,1,0},},}
@@ -925,7 +925,7 @@ var galleryItems = [
   "title": "Turmite #2",
   "description": "I improved my Langton's Ant sketch to become a <a href=\"http://en.wikipedia.org/wiki/Turmite\">Turmite</a> sketch. This is 20 configurations.",
   "date": "2012-09-03",
-  "tags": "Processing processingorg turmite black_and_white",
+  "tags": "Processing processingorg turmite grey",
   "enabled": true,
 },
 // {{{0,1,1},,{0,8,1},},,{{1,2,0},,{0,1,1},},}, at step 9770<br>{{{0,2,1},,{0,1,1},},,{{1,2,1},,{1,8,0},},}, at step 31330<br>{{{0,2,1},,{0,2,1},},,{{1,1,0},,{0,2,1},},}, at step 201449<br>{{{0,2,1},,{0,8,0},},,{{1,8,1},,{0,2,0},},}, at step 7313<br>{{{0,2,1},,{0,8,0},},,{{1,8,1},,{1,1,0},},}, at step 3591<br><br><br>{{{0,2,1},,{1,2,1},},,{{1,8,1},,{1,8,0},},}, at step 18058<br>{{{0,8,1},,{1,2,1},},,{{1,1,0},,{1,1,1},},}, at step 4731<br>{{{0,2,1},,{0,8,1},},,{{1,1,0},,{1,8,1},},}, at step 45423<br>{{{0,8,1},,{1,8,1},},,{{1,2,1},,{0,2,0},},}, at step 15133<br>{{{1,1,1},,{0,1,0},},,{{0,2,0},,{1,8,0},},}, at step 7303<br><br><br>{{{1,1,1},,{0,1,1},},,{{1,2,1},,{0,1,0},},}, at step 23518<br>{{{1,1,1},,{0,2,1},},,{{1,8,0},,{1,2,0},},}, at step 7481<br>{{{1,1,1},,{0,8,1},},,{{1,2,0},,{1,1,1},},}, at step 9262<br>{{{1,1,1},,{1,8,0},},,{{1,2,1},,{0,1,0},},}, at step 21406<br>{{{1,2,0},,{0,8,1},},,{{1,8,0},,{0,1,1},},}, at step 11354<br><br><br>{{{1,2,0},,{0,8,1},},,{{1,8,0},,{0,2,1},},}, at step 152193<br>{{{1,2,0},,{1,2,1},},,{{0,1,0},,{0,1,1},},}, at step 7111<br>{{{1,2,1},,{0,2,0},},,{{0,1,0},,{1,2,1},},}, at step 64315<br>{{{1,2,1},,{0,2,1},},,{{1,1,0},,{1,1,1},},}, at step 25691<br>{{{1,2,1},,{0,8,1},},,{{1,1,0},,{0,1,0},},}, at step 10529
@@ -934,7 +934,7 @@ var galleryItems = [
   "title": "Turmite #1",
   "description": "I improved my Langton's Ant sketch to become a <a href=\"http://en.wikipedia.org/wiki/Turmite\">Turmite</a> sketch. This is 20 configurations.",
   "date": "2012-09-03",
-  "tags": "Processing processingorg turmite black_and_white",
+  "tags": "Processing processingorg turmite grey",
   "enabled": true,
 },
   {
@@ -982,7 +982,7 @@ var galleryItems = [
   "title": "Sterling",
   "description": "My attempt at recreating the painting from Roger Sterling's office in Mad Men.<br><a href=\"http://www.housebeautiful.com/cm/housebeautiful/images/Pg/05-hbx-roger-sterling-office-lgn.jpg\">www.housebeautiful.com/cm/housebeautiful/images/Pg/05-hbx...</a>",
   "date": "2012-08-27",
-  "tags": "Processing processingorg mad_men roger_sterling black_and_white film_and_tv",
+  "tags": "Processing processingorg mad_men roger_sterling grey media",
   "enabled": false,
 },
   {
@@ -1070,7 +1070,7 @@ var galleryItems = [
   "title": "Roots",
   "description": "Wasn't intended to look so sinister.",
   "date": "2012-08-14",
-  "tags": "random colour Processing processingorg black_and_white",
+  "tags": "random colour Processing processingorg grey",
   "enabled": true,
 },
   {
@@ -1150,7 +1150,7 @@ var galleryItems = [
   "title": "Letter Frequency",
   "description": "The relative size of each letter is equal to it's frequency in the English language.",
   "date": "2012-08-12",
-  "tags": "text frequency Processing processingorg black_and_white",
+  "tags": "text frequency Processing processingorg grey",
   "enabled": false,
 },
   {
@@ -1166,7 +1166,7 @@ var galleryItems = [
   "title": "Optical Illusion",
   "description": "This is not a spiral.",
   "date": "2012-08-12",
-  "tags": "illusion Processing processingorg black_and_white",
+  "tags": "illusion Processing processingorg grey",
   "enabled": true,
 },
   {
@@ -1174,7 +1174,7 @@ var galleryItems = [
   "title": "Optical Illusion",
   "description": "The inside circles are the same size.",
   "date": "2012-08-12",
-  "tags": "illusion Processing processingorg black_and_white",
+  "tags": "illusion Processing processingorg grey",
   "enabled": true,
 },
   {
@@ -1198,7 +1198,7 @@ var galleryItems = [
   "title": "Optical Illusion",
   "description": "Squares A and B are the same colour.",
   "date": "2012-08-12",
-  "tags": "illusion colour Processing processingorg black_and_white",
+  "tags": "illusion colour Processing processingorg grey",
   "enabled": true,
 },
   {
@@ -1206,7 +1206,7 @@ var galleryItems = [
   "title": "Optical Illusion",
   "description": "There are no black dots.",
   "date": "2012-08-12",
-  "tags": "illusion colour Processing processingorg black_and_white",
+  "tags": "illusion colour Processing processingorg grey",
   "enabled": true,
 },
   {
@@ -1222,7 +1222,7 @@ var galleryItems = [
   "title": "Optical Illusion",
   "description": "These bars are not curved.",
   "date": "2012-08-12",
-  "tags": "illusion Processing processingorg black_and_white",
+  "tags": "illusion Processing processingorg grey",
   "enabled": true,
 },
   {
@@ -1246,7 +1246,7 @@ var galleryItems = [
   "title": "Elian Script",
   "description": "This sketch translates letters into Elian Script. For each letter it randomly determines a valid location for the circle and the longer line, if applicable.<br>The third line says &quot;hello world&quot;.<br>Elian Script:<br><a href=\"http://www.ccelian.com/concepca.html\">www.ccelian.com/concepca.html</a>",
   "date": "2012-08-12",
-  "tags": "text random elian_script elian Processing processingorg black_and_white",
+  "tags": "text random elian_script elian Processing processingorg grey",
   "enabled": false,
 },
   {
@@ -1254,7 +1254,7 @@ var galleryItems = [
   "title": "Distance table",
   "description": "This sketch generates a table showing the distances between cities. The input is the name of each city and it's co-ordinates.",
   "date": "2012-08-12",
-  "tags": "maths text csharp black_and_white",
+  "tags": "maths text csharp grey",
   "enabled": false,
 },
   {
@@ -1278,7 +1278,7 @@ var galleryItems = [
   "title": "Clusters",
   "description": "This sketch is a work in progress, which I'm hoping to turn into an engine that works in a similar way to this:<br><a href=\"http://visualizing.org/full-screen/41161\">visualizing.org/full-screen/41161</a><br>Currently it handles the creation, resizing and moving of the circles.",
   "date": "2012-08-12",
-  "tags": "maths Processing processingorg black_and_white",
+  "tags": "maths Processing processingorg grey",
   "enabled": false,
 },
   {
@@ -1294,7 +1294,7 @@ var galleryItems = [
   "title": "Racetrack Chart",
   "description": "It's a bar chart, but worse.",
   "date": "2012-08-12",
-  "tags": "chart Processing processingorg black_and_white",
+  "tags": "chart Processing processingorg grey",
   "enabled": false,
 },
   {
@@ -1302,7 +1302,7 @@ var galleryItems = [
   "title": null,
   "description": "",
   "date": "2012-08-12",
-  "tags": "Processing processingorg black_and_white",
+  "tags": "Processing processingorg grey",
   "enabled": true,
 },
   {
@@ -1310,7 +1310,7 @@ var galleryItems = [
   "title": "Olympic Censorship",
   "description": "Don't say these words!<br><a href=\"http://www.tradingstandards.gov.uk/cgi-bin/glos/bus1item.cgi?file=*BADV687-1001.txt\">www.tradingstandards.gov.uk/cgi-bin/glos/bus1item.cgi?fil...</a>",
   "date": "2012-08-12",
-  "tags": "random text olympics Processing processingorg black_and_white",
+  "tags": "random text olympics Processing processingorg grey",
   "enabled": false,
 },
   {
@@ -1318,7 +1318,7 @@ var galleryItems = [
   "title": null,
   "description": "",
   "date": "2012-08-12",
-  "tags": "random text Processing processingorg black_and_white",
+  "tags": "random text Processing processingorg grey",
   "enabled": true,
 },
   {
@@ -1326,7 +1326,7 @@ var galleryItems = [
   "title": "Voronoi Taxicab",
   "description": "A <a href=\"http://en.wikipedia.org/wiki/Voronoi_diagram\">Voronoi diagram</a> using <a href=\"http://en.wikipedia.org/wiki/Taxicab_geometry\">Taxicab geometry</a>.",
   "date": "2012-08-12",
-  "tags": "colour maths random voronoi Processing processingorg black_and_white",
+  "tags": "colour maths random voronoi Processing processingorg grey",
   "enabled": true,
 },
   {
@@ -1342,7 +1342,7 @@ var galleryItems = [
   "title": "Squareception",
   "description": "I wanted to see if I could make something like &quot;White Hole&quot; by Graphic Nothing:<br><a href=\"http://www.flickr.com/photos/ilikegraphics/3550394393/in/set-72157623150798499\">www.flickr.com/photos/ilikegraphics/3550394393/in/set-721...</a>",
   "date": "2012-08-12",
-  "tags": "squares repetition Processing processingorg black_and_white",
+  "tags": "squares repetition Processing processingorg grey",
   "enabled": false,
 },
   {
@@ -1382,7 +1382,7 @@ var galleryItems = [
   "title": "PrimeWave",
   "description": "A screenshot of PrimeWave, which is my copy of &quot;El Patron de los Numeros Primos&quot; <a href=\"http://www.jasondavies.com/primos/\">www.jasondavies.com/primos/</a>",
   "date": "2012-08-12",
-  "tags": "interactive maths prime Processing processingorg black_and_white",
+  "tags": "interactive maths prime Processing processingorg grey",
   "enabled": false,
 },
   {

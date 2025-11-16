@@ -770,7 +770,7 @@ var galleryItems = [
   {
   "src": "images/visualising-merge-sort-2_8235541959_o.png",
   "title": "Visualising Merge Sort #2",
-  "description": "I wanted to try visualising merge sort with more readable items and using curves to display the way each element is moved.<br>As before, the first row contains the initial set of colours and then each row shows the array after the subsets have been sorted.<br><a href=\"http://en.wikipedia.org/wiki/Merge_sort\">Merge Sort</a>.",
+  "description": "I wanted to try visualising merge sort with more readable items and use curves to display the way each element is moved.<br>The first row contains the initial set of colours and then each row shows the array after the subsets have been sorted.<br><a href=\"http://en.wikipedia.org/wiki/Merge_sort\">Merge Sort</a>.",
   "date": "2012-12-02",
   "tags": "Processing processingorg random colour mergesort",
   "enabled": true,
@@ -834,7 +834,7 @@ var galleryItems = [
   {
   "src": "images/buildings_8068775525_o.png",
   "title": "Buildings",
-  "description": "I searched for nine famous buildings via Google image search, then I combined the returned images to produce the result above.<br>Many buildings were rejected, because they don't have a single iconic view. For example, the Bank of China, Statue of Liberty, Sydney Opera House, Sphinx, Big Ben, World Trade Center and the Shanghai World Financial Center.<br>Buildings displayed are: Arc de Triomphe, France. Collosseum, Italy. Disney Castle, Japan. Eiffel Tower, France. Gherkin, England. Pyramid of Giza, Egypt. Petronas Towers, Malaysia. Tower Bridge, England. Taj Mahal, India.",
+  "description": "I searched for nine famous buildings, then combined the returned images to produce the result above.<br>Many buildings were rejected, because they don't have a single iconic view. For example, the Bank of China, Statue of Liberty, Sydney Opera House, Sphinx, Big Ben, World Trade Center and the Shanghai World Financial Center.<br>Buildings displayed are: Arc de Triomphe, France. Collosseum, Italy. Disney Castle, Japan. Eiffel Tower, France. Gherkin, England. Pyramid of Giza, Egypt. Petronas Towers, Malaysia. Tower Bridge, England. Taj Mahal, India.",
   "date": "2012-10-09",
   "tags": "Processing processingorg image collage buildings",
   "enabled": true,
@@ -1044,7 +1044,7 @@ var galleryItems = [
   {
   "src": "images/terrain-perlin-noise_7798155394_o.png",
   "title": "Terrain (Perlin Noise)",
-  "description": "My first attempt at using 3d graphics in Processing. This is a terrain generator using <a href=\"http://en.wikipedia.org/wiki/Perlin_noise\">Perlin noise</a>.",
+  "description": "My first attempt at using 3D graphics in Processing. This is a terrain generator using <a href=\"http://en.wikipedia.org/wiki/Perlin_noise\">Perlin noise</a>.",
   "date": "2012-08-16",
   "tags": "colour random 3d perlin Processing processingorg perlin_noise",
   "enabled": true,
@@ -1116,7 +1116,7 @@ var galleryItems = [
   {
   "src": "images/maze-2_7766685506_o.png",
   "title": "Distance Maze #2",
-  "description": "An output from my Processing sketch that generates a maze and colours the solution in red. Every other part of the maze is coloured depending on how close it is to the solution path.<br>This version is biased against straight lines.",
+  "description": "An output from my Processing sketch that generates a maze, then shows the solution in red. Every other part of the maze is coloured depending on how close it is to the solution path.<br>This version is biased against straight lines.",
   "date": "2012-08-12",
   "tags": "maths colour random maze Processing processingorg",
   "enabled": true,
@@ -1124,7 +1124,7 @@ var galleryItems = [
   {
   "src": "images/maze-1_7766685692_o.png",
   "title": "Distance Maze #1",
-  "description": "An output from my Processing sketch that generates a maze and colours the solution in red. Every other part of the maze is coloured depending on how close it is to the solution path.<br>This version is biased towards straight lines.",
+  "description": "An output from my Processing sketch that generates a maze, then shows the solution in red. Every other part of the maze is coloured depending on how close it is to the solution path.<br>This version is biased towards straight lines.",
   "date": "2012-08-12",
   "tags": "maths colour random maze Processing processingorg",
   "enabled": true,

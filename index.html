@@ -23,6 +23,7 @@
       text-align: center;
       color: white;
       background: #000;
+      overflow-y: scroll;
     }
     h1 {
       font-family: 'Roboto Slab';
@@ -168,10 +169,17 @@
   var filterButtons = document.querySelectorAll('.filter-buttons button');
   filterButtons.forEach(btn => {
     btn.addEventListener('click', () => {
-      var filter = btn.dataset.filter;
-      renderGallery(filter);
-      filterButtons.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
+      if (btn.classList.contains('active')) {
+        renderGallery('all');
+		filterButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.remove('active');
+        document.querySelector('button[data-filter="all"]').classList.add('active');
+      } else {
+        var filter = btn.dataset.filter;
+        renderGallery(filter);
+        filterButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      }
     });
   });
 

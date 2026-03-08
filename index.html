@@ -145,7 +145,10 @@
 <script>
 
   galleryItems = galleryItems.filter(e => e.enabled);
-  galleryItems.forEach(item => { item.id = 'img' + item.src.match(/\d{10}/); });
+  galleryItems.forEach(item => {
+  	item.id = 'img' + item.src.match(/\d{10}/);
+  	item.date = item.date.replace(/-(..)-/,(m,x)=>"-"+"Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split` `[x-1]+"-");
+  });
 
   var includedTags = new Set(['grey','chart','media','fractal','illusion','maze']);
   var allTags = new Set();

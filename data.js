@@ -1,6 +1,6 @@
 var galleryItems = [
   {
-  "src": "images/charli_o.png",
+  "src": "images/charli_55000000001_o.png",
   "title": "Completely Different",
   "description": "A word cloud of the tracks from Charli xcx's album, <em>Brat</em>.",
   "date": "2026-03-08",

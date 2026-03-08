@@ -1,5 +1,13 @@
 var galleryItems = [
   {
+  "src": "images/charli_o.png",
+  "title": "Completely Different",
+  "description": "A word cloud of the tracks from Charli xcx's album, <em>Brat</em>.",
+  "date": "2026-03-08",
+  "tags": "csharp charli xcx text",
+  "enabled": true,
+},
+  {
   "src": "images/suspiria_54003490783_o.png",
   "title": "Suspiria",
   "description": "I recently watched the film <a href=\"https://letterboxd.com/film/suspiria/\">Suspiria (1977)</a>, which has this interesting floor pattern. I've recreated that in this image.",
@@ -391,6 +399,7 @@ var galleryItems = [
   "tags": "csharp random grey",
   "enabled": true,
 },
+/*
   {
   "src": "images/a-man-of-his-words_13678860513_o.png",
   "title": "A Man of His Words",
@@ -398,7 +407,7 @@ var galleryItems = [
   "date": "2014-04-06",
   "tags": "Processing processingorg text random michael_jackson grey",
   "enabled": true,
-},
+},*/
   {
   "src": "images/films_12621742244_o.png",
   "title": "Films",
